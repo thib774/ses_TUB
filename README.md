@@ -5,14 +5,14 @@ This package contains Python implementations of the LPI distance, the adjusted p
 
 ## Install
 
-To install package download the source and install the package using pip in the top directory. 
+To install package download the source and install the package using pip in the top directory.
 ```
 pip install .
 ```
 
 Alternatively , we recommend using a conda virtual environments like that:
 ```
-conda create -n lpi python=3.6 numpy pytest scipy
+conda create -n lpi python=3.6 numpy pytest scipy pandas sklearn
 ```
 
 Then activate the virtual environment:
@@ -27,6 +27,6 @@ pip install .
 
 To verify the installation change into the tests directory and run pytest:
 ```
-cd tests
+cd lpi_distance/tests
 pytest
 ```
